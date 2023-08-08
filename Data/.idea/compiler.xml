@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Warehouse-main" />
+        <module name="Data" />
         <module name="spring-mongodb" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Data" options="-parameters" />
       <module name="Warehouse-main" options="-parameters" />
       <module name="spring-mongodb" options="-parameters" />
     </option>

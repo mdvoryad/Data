@@ -1,4 +1,4 @@
-package htw.kbe.model;
+package htw.model;
 
 import lombok.AllArgsConstructor;
 import org.springframework.data.annotation.CreatedBy;

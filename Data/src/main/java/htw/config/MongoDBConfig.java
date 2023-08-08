@@ -1,9 +1,9 @@
-package htw.kbe.config;
+package htw.config;
 
 
 
-import htw.kbe.repository.ComponentRepository;
-import htw.kbe.repository.ProductRepository;
+import htw.repository.ComponentRepository;
+import htw.repository.ProductRepository;
 import com.mongodb.*;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Configuration;

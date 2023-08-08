@@ -1,6 +1,6 @@
-package htw.kbe.repository;
+package htw.repository;
 
-import htw.kbe.model.Product;
+import htw.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ProductRepository extends MongoRepository<Product, Integer>{

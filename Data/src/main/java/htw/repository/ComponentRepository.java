@@ -1,6 +1,6 @@
-package htw.kbe.repository;
+package htw.repository;
 
-import htw.kbe.model.Component;
+import htw.model.Component;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ComponentRepository extends MongoRepository<Component, Integer> {
