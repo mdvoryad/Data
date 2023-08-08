@@ -1,9 +1,0 @@
-version: "3.9"
-services:
-  order:
-    build:
-      context: .
-      dockerfile: .docker/Dockerfile
-    image: 'order'
-    ports:
-      - '8086:8086'
